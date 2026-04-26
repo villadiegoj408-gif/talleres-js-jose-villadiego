@@ -32,3 +32,13 @@ for (let i = 1; i <= 20; i++) {
   console.log(i);
 }
 
+
+// ejercicio 5: funciones
+
+function sumar(a, b) {
+  return a + b;
+}
+
+let resultado = sumar(5, 10);
+console.log(resultado);
+
