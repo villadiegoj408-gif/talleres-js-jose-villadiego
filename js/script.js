@@ -17,3 +17,13 @@ let estoyEstudiandoJS = true;
 };
 console.log("Comidas favoritas:", comidasFavoritas);
 console.log("Producto:", producto);
+
+// ejercicio 3: condicionales
+
+let añosEdad = 18;
+if (edad >= 18) {
+  console.log("Eres mayor de edad");
+} else {
+  console.log("Eres menor de edad");
+}
+
