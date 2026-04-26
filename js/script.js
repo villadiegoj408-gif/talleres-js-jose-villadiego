@@ -42,3 +42,31 @@ function sumar(a, b) {
 let resultado = sumar(5, 10);
 console.log(resultado);
 
+// mini reto: calculadora básica
+
+// Sumar
+function sumar(a, b) {
+  return a + b;
+}
+
+// Restar
+function restar(a, b) {
+  return a - b;
+}
+
+// Multiplicar
+function multiplicar(a, b) {
+  return a * b;
+}
+
+// Dividir
+function dividir(a, b) {
+  return a / b;
+}
+
+// Llamadas e impresión en consola
+console.log("Suma:", sumar(10, 5));
+console.log("Resta:", restar(10, 5));
+console.log("Multiplicación:", multiplicar(10, 5));
+console.log("División:", dividir(10, 5));
+
