@@ -27,3 +27,8 @@ if (edad >= 18) {
   console.log("Eres menor de edad");
 }
 
+// ejercicio 4: ciclos
+for (let i = 1; i <= 20; i++) {
+  console.log(i);
+}
+
